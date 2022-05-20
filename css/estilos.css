@@ -1,0 +1,240 @@
+* {margin:0;padding:0;box-sizing: border-box;}
+@font-face {
+    font-family:Anton-regular ;
+    src: url(Anton-regular.ttf) format(truetype)
+}
+@font-face {
+    font-family: Antonio-light;
+    src: url(Antonio-light.ttf) format(truetype)
+}
+
+@font-face {
+    font-family:Antonio-Bold ;
+    src: url(Antonio-Bold) format(truetype)
+}
+
+body{ 
+    background-color: black;
+color: white;
+width: 100%;}
+
+h1{
+
+    color: rgb(120, 34, 219);
+    font-size: 35px;
+    font-family: 'Antonio', sans-serif;
+    
+}
+
+h2{
+
+    color: grey;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.logo{
+width: 20vw;
+display: flex;
+align-content: center;
+
+}
+
+.nombre{font-size: 45px;
+    font-family: 'Anton', sans-serif;
+  }
+
+
+.header{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-around;
+height: 130px;
+
+
+}
+
+.cajaheader{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+
+
+
+
+
+nav a { 
+    color: white; 
+	margin: 20px; 
+	padding: 7px;
+    text-decoration: none;
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+    color:rgb(120, 34, 219);
+    background-color: white;
+    border-radius: 10px;
+}
+  
+  a{text-decoration: none;
+color: white;}
+
+
+    .section{
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: space-around;
+font-family: 'Antonio', sans-serif;
+
+   }
+
+
+.section p{padding: 5px;}
+.section h1{margin-bottom: 20px;margin-top: 20px;}
+
+.caja2section{
+display: flex;
+flex-direction: row;
+margin-top: 5px;
+
+}
+
+
+.fotoduki img{
+    width: 100%;
+}
+
+.bloques{
+width: 31%;
+padding: 2%;}
+
+.formacion { margin-top: 100px;}
+
+
+footer 
+	{ background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 2px;
+    
+	
+	}
+
+.cajaredes{ 
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-around;
+    color:rgb(120, 34, 219);
+    font-size: 14px;
+}
+
+
+
+@media(max-width:790px){
+    
+    .logo{
+        width: 100%;
+        justify-content: center;}
+        
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        height:auto;}
+
+
+        nav a { padding: 2px;}
+
+
+        .nombre{margin: 10px;}
+
+        .caja2section{
+            flex-wrap: wrap;
+           
+            
+            }
+            
+        
+        .bloques{
+            width: 46%;
+            text-align: center
+            
+            }
+
+.bloques:last-child{ width: 100%;}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media(max-width:480px){
+    
+    
+    
+    
+    
+    
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        height: auto;
+    }
+    .section{
+            
+        width: 100%;
+        justify-content:center;
+        text-align: center;
+           }
+    
+    
+    .caja2section{
+        display: flex;
+        flex-direction: column;
+    }
+        
+        .logo{
+            width: 100%;
+            justify-content: center;
+            
+        }
+    
+        nav a { display: flex;
+            flex-direction: column;}
+
+
+            .bloques{
+                width:98%;
+                padding: 2%;}
+
+                .cajaredes{ 
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px;
+                    justify-content: center;
+  
+            }
+
+        }
+   
